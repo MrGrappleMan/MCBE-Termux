@@ -5,12 +5,14 @@
 ![License](https://img.shields.io/badge/license-GPL--3.0-blue.svg)
 ![Platform](https://img.shields.io/badge/platform-Android-green.svg)
 ![Termux](https://img.shields.io/badge/Termux-Required-orange.svg)
-![Maintained](https://img.shields.io/badge/maintained-yes-green.svg)
+![Maintenance Paused](https://img.shields.io/badge/Maintenance-Paused-yellow)
+
+> ⚠️ Maintenance on this repo is paused until March 2027. Issues and PRs may not be reviewed until then.
 
 
 Run a Minecraft Bedrock Dedicated Server on your Android device using Termux and Debian (proot-distro).
 
-> ☕ **Running a 32-bit device or want Java Edition with Bedrock support?** → [Java Server Setup (PaperMC + Geyser)](JAVA_SERVER.md)
+> ☕ **Want Java Edition with Bedrock support?** → [Java Server Setup](JAVA_SERVER.md)
 
 
 ## Table of Contents
