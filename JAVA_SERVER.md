@@ -1,10 +1,8 @@
 # Minecraft Java Edition Server for Termux
 
-Run a **Minecraft Java Edition server** directly in Termux - no root, no proot, no Box64 needed.
+Run a **Minecraft Java Edition server** directly in Termux.
 
-Works on **both 32-bit and 64-bit ARM** Android devices.
-
-> Looking for the Bedrock server instead? [Back to main guide](README.md)
+> Looking for the Bedrock-only server instead? [Back to main guide](README.md)
 
 ---
 
@@ -15,10 +13,7 @@ Works on **both 32-bit and 64-bit ARM** Android devices.
 
 ## Requirements
 
-- Android 7.0 or higher
-- Any ARM device: 32-bit or 64-bit
-- Minimum 1.5 GB free RAM
-- [Termux from F-Droid](https://f-droid.org/packages/com.termux/)
+[Termux ](https://github.com/termux/termux-app))
 
 ---
 
@@ -113,8 +108,6 @@ ifconfig | grep inet
 
 ## FAQ
 
-**Does this work on 32-bit devices?**
-Yes. Java runs on the JVM so no architecture translation is needed, unlike the Bedrock server which requires Box64 and a 64-bit device.
 
 **Can Bedrock/PE players join?**
 Yes. Install Geyser during setup and it handles the protocol translation automatically on port `19132`.
